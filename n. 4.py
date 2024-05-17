@@ -30,8 +30,10 @@ def n4():
         return 0
 
     for i in range(len(x) // 2):
+        print(i)
         k1 = k1 + int(x[i])
         k2 = k2 + int(x[-i - 1])
+    print(k1, k2)
     if k1 == k2:
         return "Счастливый билет"
     else:
